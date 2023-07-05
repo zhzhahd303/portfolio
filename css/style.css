@@ -90,8 +90,9 @@ svg{position: absolute; bottom: -3%; left: 0; z-index: 6;}
 
 
 #profile-top{ display: flex; justify-content: space-between; border-radius: 30px; padding:2% 0 4% 0; position: relative; transform: translateY(200px);}
-#profile-left{width: 25%;}
-#pc{width: 90%; height: 20vw; background: #eee; border-radius: 15px; margin: 0 auto;}
+#profile-left{width: 25%; overflow: hidden; border-radius: 15px;}
+#pc{width: 100%; height: 20vw; background: #eee; border-radius: 15px; margin: 0 auto;}
+#pc img{width: 100%;}
 
 #profile-right{width: 75%; padding: 2% 2% 0;}
 #profile-text{ padding: 0.5% 2%; }
